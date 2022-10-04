@@ -8,12 +8,12 @@
           class="task__button"
           @click="$emit('remove')"
       >
-        <img src="@/images/icons/trash.svg" alt="icon" class="task__icon task__icon--grey">
+        <img src="/images/icons/trash.svg" alt="icon" class="task__icon task__icon--grey">
       </button>
       <button
           class="task__button"
           @click="$emit('favourite')">
-        <img src="@/images/icons/heart.svg"
+        <img src="/images/icons/heart.svg"
              alt="icon"
              class="task__icon"
              :class="{'task__icon--red' : favourite}"
